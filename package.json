@@ -1,0 +1,22 @@
+{
+  "name": "hugb_js",
+  "version": "1.0.0",
+  "description": "Lab 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korsbacka/HUGB_JS.git"
+  },
+  "author": "Kalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korsbacka/HUGB_JS/issues"
+  },
+  "homepage": "https://github.com/korsbacka/HUGB_JS#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
