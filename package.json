@@ -4,7 +4,9 @@
   "description": "Lab 1",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "clean": "rm -rf node_modules"
   },
   "repository": {
     "type": "git",
@@ -17,19 +19,7 @@
   },
   "homepage": "https://github.com/korsbacka/HUGB_JS#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
-  }
-}
-
-{
-  "name": "hugb_js",
-  "main":"app.js",
-  "scripts": {
-    "test": "jest",
-    "watch": "jest --watchAll",
-    "clean": "rm -rf node_modules"
-  },
-  "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
