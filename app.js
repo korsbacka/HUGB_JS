@@ -1,9 +1,7 @@
-const greeting = require('./src/greeting');
-const express = require("express");
-const app = express();
+const app = require("./src/api");
 
+const PORT = process.env.PORT || 3000;
 
-app.get('/greeting/:name', (req, res) => {
-	res.status(200);
-	res.send(req.params.name);
+app.listen(PORT, () => {
+	console.log("Server running on port " + PORT);
 });
