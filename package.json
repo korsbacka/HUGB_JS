@@ -20,6 +20,12 @@
   "homepage": "https://github.com/korsbacka/HUGB_JS#readme",
   "devDependencies": {
     "jest": "^23.6.0",
-    "supertest": "^3.3.0"
+    "supertest": "^3.3.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "start": "^5.1.0"
   }
 }
